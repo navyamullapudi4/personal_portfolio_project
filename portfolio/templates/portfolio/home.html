@@ -1,5 +1,10 @@
 <h1>navyas portfolio</h1>
 
+{% load static %}
+<a href="{% static 'portfolio/Navya_Resume.pdf'%}">Resume</a>
+
+<img src ="{% static 'portfolio/anushka-shetty-birthday-airport-1.jpg' %}" height=100 width=100>
+
 {% for data in dbkeys %}
 
 <h2>{{ data.title }}</h2>
