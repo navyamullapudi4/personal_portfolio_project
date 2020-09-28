@@ -1,1 +1,12 @@
 <h1>navyas portfolio</h1>
+
+{% for data in dbkeys %}
+
+<h2>{{ data.title }}</h2>
+<p>{{ data.description }}</p>
+<img src="{{ data.image.url }}" height=100 width=100>
+{% if data.url %}
+<br><a href="{{ data.url }}">Link</a></br>
+{% endif %}
+
+{% endfor %}
