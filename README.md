@@ -6,7 +6,7 @@ to publish blog posts
 Built using Django framework with Sqlite3 as database and Bootstrap for styling
 
 
-![item list](docs\personalportfolio.png?raw=true "Title")
+![item list](docs/personalportfolio.png?raw=true "Title")
 
 #### Prerequisites
 
